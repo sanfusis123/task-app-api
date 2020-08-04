@@ -31,7 +31,7 @@ const sendOtpEmail = (email , name, otp)=>{
 const sendByeEmail = (email , name )=>{
     try{
         sgMail.send({
-            from: 'danforstjr@gmail.com',
+            from: 'sanforstjr@gmail.com',
             to:email,
             subject: 'You have to Delete Your Account',
             text: `Good Bye! , ${name} , You have happy to go on` 
